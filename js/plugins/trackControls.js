@@ -1,3 +1,4 @@
+(function ($) {
 Genoverse.Plugins.trackControls = function () {
   var defaultControls = [
     $('<a title="More info">').html('?').on('click', function () {
@@ -111,4 +112,4 @@ Genoverse.Plugins.trackControls = function () {
       }
     }
   }, 'tracks');
-};
+};})(jQuery);

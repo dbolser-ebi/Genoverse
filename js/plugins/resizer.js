@@ -1,3 +1,4 @@
+(function ($) {
 Genoverse.Plugins.resizer = function () {
   this.on('afterSetMVC', 'tracks', function () {
     if (this.prop('resizable') !== true) {
@@ -34,4 +35,4 @@ Genoverse.Plugins.resizer = function () {
       this.prop('initialHeight', this.prop('height'));
     }
   });
-};
+};})(jQuery);

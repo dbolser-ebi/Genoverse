@@ -1,3 +1,4 @@
+(function ($) {
 Genoverse.Plugins.karyotype = function () {
   this.on({
     afterInit: function () {
@@ -150,4 +151,4 @@ Genoverse.Plugins.karyotype = function () {
       }
     }
   });
-};
+};})(jQuery);

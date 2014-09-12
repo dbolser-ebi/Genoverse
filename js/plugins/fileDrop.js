@@ -1,3 +1,4 @@
+(function ($) {
 Genoverse.Plugins.fileDrop = function () {
   this.on('afterInit', function () {
     var browser = this;
@@ -54,4 +55,4 @@ Genoverse.Plugins.fileDrop = function () {
       }
     });
   });
-};
+};})(jQuery);

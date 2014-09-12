@@ -1,3 +1,4 @@
+(function ($) {
 Genoverse.Plugins.hoverLabels = function () {
   this.on('afterAddDomElements', 'tracks', function () {
     var track = this;
@@ -17,4 +18,4 @@ Genoverse.Plugins.hoverLabels = function () {
       $(this).css({ overflow: 'hidden'});
     });
   });
-};
+};})(jQuery);

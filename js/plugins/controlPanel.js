@@ -1,3 +1,4 @@
+(function ($) {
 Genoverse.Plugins.controlPanel = function () {
   this.controls = [
     // // Uncomment this to see this example working
@@ -256,4 +257,4 @@ Genoverse.Plugins.controlPanel = function () {
       }
     }
   });
-};
+};})(jQuery);
